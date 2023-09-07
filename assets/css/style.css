@@ -1,0 +1,78 @@
+/*============================== Imports ==================================== */
+
+
+/*============================== Configurations ==============================*/
+:root {
+    /*=============== COLORS ===============*/
+    --shadow-color: hsl(36, 24%, 41%);
+    --teak-color: hsl(37, 34%, 54%);
+
+    /*=============== BACKGROUNDS ===============*/
+    --input-checkbox-pill-checked-background-color: var(--teak-color);
+
+    /*=============== BORDERS ===============*/
+    --input-checkbox-pill-border-color: var(--teak-color);
+
+    /*=============== TEXTS ===============*/
+
+
+    /*=============== FONTS ===============*/
+    
+}
+
+/*============================== Generic Elements ==============================*/
+body {
+    --bege: #E6E0D6;
+    height: 4000px;
+
+    font-family: 'Barlow', sans-serif;
+}
+
+/* ========== INPUTS ========== */
+input[type="checkbox"] {
+    background-color: transparent;
+    
+    border: 1px solid var(--input-checkbox-pill-border-color);
+    
+    cursor: pointer;
+    
+    /* Specificity */
+    &.form-check-input {
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='%23b29463'/></svg>");
+    }
+    
+    &:checked {
+        background-color: var(--input-checkbox-pill-checked-background-color);
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='%23ffffff'/></svg>");
+        
+        border-color: var(--input-checkbox-pill-border-color);
+    }
+    
+    &:focus {
+        border-color: var(--input-checkbox-pill-border-color);
+        box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--input-checkbox-pill-border-color) 40%, transparent 60%);
+    }
+}
+
+/*============================== Generic Classes ==============================*/
+/* BANNERS */
+.banner-1 {
+    background-image: url("/assets/images/backgrounds/banner-1.png");
+}
+.banner-2 {
+    background-image: url("/assets/images/backgrounds/banner-2.png");
+}
+.banner-3 {
+    background-image: url("/assets/images/backgrounds/banner-3.png");
+}
+
+/*============================== Page - Top to Bottom ==============================*/
+/* HEADER */
+.banner {
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100vh;
+}
+
+/*============================== Responsive Layouts ==============================*/
