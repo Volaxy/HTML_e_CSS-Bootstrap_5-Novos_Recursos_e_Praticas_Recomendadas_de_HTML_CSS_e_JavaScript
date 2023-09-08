@@ -8,10 +8,13 @@
     --teak-color: hsl(37, 34%, 54%);
 
     /*=============== BACKGROUNDS ===============*/
-    --input-checkbox-pill-checked-background-color: var(--teak-color);
+    --input-checkbox-pill--checked-background-color: var(--teak-color);
+    --default-button-background-color: var(--teak-color);
+    --default-button--hover-background-color: var(--shadow-color);
 
     /*=============== BORDERS ===============*/
     --input-checkbox-pill-border-color: var(--teak-color);
+    --card-border-color: var(--teak-color);
 
     /*=============== TEXTS ===============*/
 
@@ -42,7 +45,7 @@ input[type="checkbox"] {
     }
     
     &:checked {
-        background-color: var(--input-checkbox-pill-checked-background-color);
+        background-color: var(--input-checkbox-pill--checked-background-color);
         background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='%23ffffff'/></svg>");
         
         border-color: var(--input-checkbox-pill-border-color);
@@ -55,6 +58,13 @@ input[type="checkbox"] {
 }
 
 /*============================== Generic Classes ==============================*/
+/* BOOTSTRAP STYLES OVERRIDE */
+/* CARD */
+.card-body {
+    border: 1px solid var(--card-border-color);
+}
+
+/* CUSTOM STYLES */
 /* BANNERS */
 .banner-1 {
     background-image: url("/assets/images/backgrounds/banner-1.png");
@@ -64,6 +74,15 @@ input[type="checkbox"] {
 }
 .banner-3 {
     background-image: url("/assets/images/backgrounds/banner-3.png");
+}
+
+/* BUTTON */
+.default-button {
+    background-color: var(--default-button-background-color);
+
+    &:hover {
+        background-color: var(--default-button--hover-background-color);
+    }
 }
 
 /*============================== Page - Top to Bottom ==============================*/

@@ -32,15 +32,19 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="/assets/images/logo-mobile.png" alt="Logotype of the Serenatto"></a>
+            <a class="navbar-brand" href="#"><img src="/assets/images/logo-mobile.png"
+                    alt="Logotype of the Serenatto"></a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="/assets/images/logo-mobile.png" alt="Logotype of the Serenatto"></h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="/assets/images/logo-mobile.png"
+                            alt="Logotype of the Serenatto"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
 
@@ -57,10 +61,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                        
+
                         <li class="nav-item dropdown">
                             <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
                                 <label class="form-check-label" for="flexSwitchCheckDefault">Night Mode</label>
                             </div>
                         </li>
@@ -83,13 +88,197 @@
             <header class="d-flex flex-column justify-content-center banner banner-2">
                 <div class="bg-body-secondary bg-opacity-10 p-5 text-center">
                     <h1 class="fw-semibold">Doors open to all audiences.</h1>
-                    <p>Our space is cozy, pet friendly, prepared to receive children and people with disabilities. We also offer a coworking environment!</p>
+                    <p>Our space is cozy, pet friendly, prepared to receive children and people with disabilities. We
+                        also offer a coworking environment!</p>
                 </div>
             </header>
+
+            <section class="py-5">
+                <h2 class="text-center fw-bold pb-1">Nossos serviços</h2>
+
+                <div class="container d-flex justify-content-around flex-wrap">
+
+                    <div class="card m-4" style="width: 20rem;">
+                        <img src="/assets/images/cafe-card.png" class="card-img-top"
+                            alt="Balcão de padaria tradicional com alimentos diversos">
+
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h3 class="card-title py-2 fw-bold">Café & Bistro</h3>
+                            <p class="card-text">Our bistro offers a wide range of coffees, smoothies, delicious pastries and desserts. An excellent option for those looking for a quiet and cozy place.</p>
+                            <button class="btn default-button w-100 fw-bold" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-1" aria-controls="offcanvasRight">I want details</button>
+                        </div>
+                    </div>
+
+                    <div class="card m-4" style="width: 20rem;">
+                        <img src="/assets/images/buffet-card.png" class="card-img-top"
+                            alt="Mesa de buffet com alimentos diversos">
+
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h3 class="card-title fw-bold">Buffet</h3>
+                            <p class="card-text">Buffet and personalized catering for events, productions and celebrations. With a varied menu adaptable to customer preferences, attentive and professional service.</p>
+                            <button class="btn default-button w-100 fw-bold mt-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-2" aria-controls="offcanvasRight">I want details</button>
+                        </div>
+                    </div>
+
+                    <div class="card m-4" style="width: 20rem;">
+                        <img src="/assets/images/delivery-card.png" class="card-img-top"
+                            alt="Caixa aberta armazenando comidas diversas">
+
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h3 class="card-title fw-bold">Delivery</h3>
+                            <p class="card-text">For those who want to enjoy it in the comfort of home, we offer product delivery. With the same varied menu as always, without losing our flavor and quality standards.</p>
+
+                            <button class="btn default-button w-100 fw-bold mt-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-3" aria-controls="offcanvasRight">I want details</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
-        
+
         <div class="d-flex flex-column justify-content-center banner banner-3"></div>
     </main>
+
+    <!-- OFF-CANVAS -->
+    <!-- Café & Bistro -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-1" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasRightLabel">Café & Bistro</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordion-coffee-and-bistro">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button default-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-coffee-1"
+                            aria-expanded="true" aria-controls="collapse-coffee-1">
+                            Coffee
+                        </button>
+                    </h2>
+
+                    <div id="collapse-coffee-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-coffee-and-bistro">
+                        <p class="accordion-body">
+                            We have an excellent space for food and rest, with a showcase filled with sweets, snacks, traditional and special coffees to enjoy your best moments.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed default-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-coffee-2"
+                            aria-expanded="false" aria-controls="collapse-coffee-2">
+                            Bistro
+                        </button>
+                    </h2>
+
+                    <div id="collapse-coffee-2" class="accordion-collapse collapse" data-bs-parent="#accordion-coffee-and-bistro">
+                        <p class="accordion-body">
+                            In addition to coffee all day long, we offer lunchtime meals (11am to 3pm) with delicious bistro dishes!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed default-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-coffee-3" aria-expanded="false" aria-controls="collapse-coffee-3">
+                            Coworking
+                        </button>
+                    </h2>
+
+                    <div id="collapse-coffee-3" class="accordion-collapse collapse" data-bs-parent="#accordion-coffee-and-bistro">
+                        <p class="accordion-body">
+                            We have adequate space for work, with high-speed internet connection and comfortable meeting facilities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buffet -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-2" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasRightLabel">Buffet</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordion-buffet">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button default-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-buffet-1"
+                            aria-expanded="true" aria-controls="collapse-buffet-1">
+                            Events
+                        </button>
+                    </h2>
+
+                    <div id="collapse-buffet-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-buffet">
+                        <p class="accordion-body">
+                            We organize buffets with varied and personalized menus for weddings, birthday parties and other events!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed default-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-buffet-2"
+                            aria-expanded="false" aria-controls="collapse-buffet-2">
+                            Catering
+                        </button>
+                    </h2>
+
+                    <div id="collapse-buffet-2" class="accordion-collapse collapse" data-bs-parent="#accordion-buffet">
+                        <p class="accordion-body">
+                            We offer varied food service for coffee breaks, productions and backstage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Delivery -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight-3" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasRightLabel">Delivery</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <div class="accordion" id="accordion-delivery">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button default-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-delivery-1"
+                            aria-expanded="true" aria-controls="collapse-delivery-1">
+                            Orders for events
+                        </button>
+                    </h2>
+
+                    <div id="collapse-delivery-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-delivery">
+                        <p class="accordion-body">
+                            We produce and deliver the coffee items on our menu in large quantities for your events! Just get in touch and make the reservation 72 hours in advance.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed default-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-delivery-2"
+                            aria-expanded="false" aria-controls="collapse-delivery-2">
+                            Entrega por aplicativo
+                        </button>
+                    </h2>
+
+                    <div id="collapse-delivery-2" class="accordion-collapse collapse" data-bs-parent="#accordion-delivery">
+                        <p class="accordion-body">
+                            We deliver through the Ifood and Rappi apps. Check out our menu there and place your order!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -34,6 +34,13 @@ URL do curso -> [Bootstrap 5 - Novos Recursos e Práticas Recomendadas de HTML, 
 * Estilizando inputs.
 * Inserindo fontes.
 
+## 02 - Componentes do Bootstrap
+* Pegar novos componentes da documentação.
+* Unir diferentes componentes em um projeto.
+* Inserir o componente **offCanvas**.
+* Importar e customizar o componente *accordion*.
+* Definir grupos de *collapse* no *accordion*.
+
 ## :open_file_folder: Deploy da Aplicação :dash:
 [Aplicação Online](URL_DO_DEPLOY) - Site hospedado na plataforma do **Vercel**.
 
