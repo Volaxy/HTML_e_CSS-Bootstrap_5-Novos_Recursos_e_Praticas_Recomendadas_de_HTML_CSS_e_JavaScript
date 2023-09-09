@@ -4,16 +4,19 @@
 /*============================== Configurations ==============================*/
 :root {
     /*=============== COLORS ===============*/
+    --tundora-color: hsl(0, 0%, 25%);
     --shadow-color: hsl(36, 24%, 41%);
     --teak-color: hsl(37, 34%, 54%);
 
     /*=============== BACKGROUNDS ===============*/
-    --input-checkbox-pill--checked-background-color: var(--teak-color);
+    --input-checkbox--checked-background-color: var(--teak-color);
+    --input-range-background-color: var(--tundora-color);
+    --input-range-circle-background-color: var(--teak-color);
     --default-button-background-color: var(--teak-color);
     --default-button--hover-background-color: var(--shadow-color);
 
     /*=============== BORDERS ===============*/
-    --input-checkbox-pill-border-color: var(--teak-color);
+    --input-checkbox-border-color: var(--teak-color);
     --card-border-color: var(--teak-color);
 
     /*=============== TEXTS ===============*/
@@ -26,18 +29,40 @@
 /*============================== Generic Elements ==============================*/
 body {
     --bege: #E6E0D6;
-    height: 4000px;
 
     font-family: 'Barlow', sans-serif;
 }
 
 /* ========== INPUTS ========== */
 input[type="checkbox"] {
-    background-color: transparent;
-    
-    border: 1px solid var(--input-checkbox-pill-border-color);
-    
+    border: 1px solid var(--input-checkbox-border-color);
+
     cursor: pointer;
+
+    &:checked {
+        background-color: var(--input-checkbox--checked-background-color);
+
+        border-color: var(--input-checkbox-border-color);
+    }
+
+    &:focus {
+        border-color: var(--input-checkbox-border-color);
+        box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--input-checkbox-border-color) 40%, transparent 60%);
+    }
+}
+
+input[type="range"] {
+    &::-webkit-slider-runnable-track {
+        background-color: var(--input-range-background-color);
+    }
+
+    &::-webkit-slider-thumb {
+        background-color: var(--input-range-circle-background-color);
+    }
+}
+
+.night-mode-input {
+    background-color: transparent;
     
     /* Specificity */
     &.form-check-input {
@@ -45,15 +70,7 @@ input[type="checkbox"] {
     }
     
     &:checked {
-        background-color: var(--input-checkbox-pill--checked-background-color);
         background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='%23ffffff'/></svg>");
-        
-        border-color: var(--input-checkbox-pill-border-color);
-    }
-    
-    &:focus {
-        border-color: var(--input-checkbox-pill-border-color);
-        box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--input-checkbox-pill-border-color) 40%, transparent 60%);
     }
 }
 
@@ -92,6 +109,11 @@ input[type="checkbox"] {
     background-attachment: fixed;
 
     height: 100vh;
+}
+
+/* CONTACT */
+.contact-container {
+    min-width: 20rem;
 }
 
 /*============================== Responsive Layouts ==============================*/

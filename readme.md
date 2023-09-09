@@ -46,6 +46,12 @@ URL do curso -> [Bootstrap 5 - Novos Recursos e Práticas Recomendadas de HTML, 
 * Organizar elementos na tela de forma responsiva com Grid e Breakpoints.
 * Inserir componentes de modal em um projeto.
 
+## 04 - Formulário com Bootstrap
+* Criar um formulário unindo componentes do Bootstrap.
+* Entendeu a importância da semântica no código HTML.
+* Aplicou responsividade no formulário.
+* Aplicou cor no input range do Bootstrap.
+
 ## :open_file_folder: Deploy da Aplicação :dash:
 [Aplicação Online](URL_DO_DEPLOY) - Site hospedado na plataforma do **Vercel**.
 
