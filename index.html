@@ -75,29 +75,20 @@
         </div>
     </nav>
 
-    <!-- HEADER -->
-    <header class="d-flex flex-column justify-content-center banner banner-1">
-        <div class="bg-body-secondary bg-opacity-10 p-5 text-center">
-            <h1 class="fw-semibold">Your break to enjoy life</h1>
-            <p>Welcome to & Bistro Serenatto! A warm and welcoming environment to enjoy a good coffee.</p>
-        </div>
-    </header>
-
     <main>
         <section>
-            <header class="d-flex flex-column justify-content-center banner banner-2">
-                <div class="bg-body-secondary bg-opacity-10 p-5 text-center">
-                    <h1 class="fw-semibold">Doors open to all audiences.</h1>
-                    <p>Our space is cozy, pet friendly, prepared to receive children and people with disabilities. We
-                        also offer a coworking environment!</p>
+            <!-- ENJOY LIFE BANNER -->
+            <header class="d-flex flex-column justify-content-center banner banner-1">
+                <div class="bg-body-secondary bg-opacity-10 pb-5 text-center">
+                    <h1 class="fw-semibold">Your break to enjoy life</h1>
+                    <p>Welcome to & Bistro Serenatto! A warm and welcoming environment to enjoy a good coffee.</p>
                 </div>
             </header>
 
             <section class="py-5">
-                <h2 class="text-center fw-bold pb-1">Nossos serviços</h2>
+                <h2 class="text-center fw-bold pb-5">Nossos serviços</h2>
 
                 <div class="container d-flex justify-content-around flex-wrap">
-
                     <div class="card m-4" style="width: 20rem;">
                         <img src="/assets/images/cafe-card.png" class="card-img-top"
                             alt="Balcão de padaria tradicional com alimentos diversos">
@@ -105,10 +96,10 @@
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h3 class="card-title py-2 fw-bold">Café & Bistro</h3>
                             <p class="card-text">Our bistro offers a wide range of coffees, smoothies, delicious pastries and desserts. An excellent option for those looking for a quiet and cozy place.</p>
+
                             <button class="btn default-button w-100 fw-bold" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-1" aria-controls="offcanvasRight">I want details</button>
                         </div>
                     </div>
-
                     <div class="card m-4" style="width: 20rem;">
                         <img src="/assets/images/buffet-card.png" class="card-img-top"
                             alt="Mesa de buffet com alimentos diversos">
@@ -116,10 +107,10 @@
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h3 class="card-title fw-bold">Buffet</h3>
                             <p class="card-text">Buffet and personalized catering for events, productions and celebrations. With a varied menu adaptable to customer preferences, attentive and professional service.</p>
+
                             <button class="btn default-button w-100 fw-bold mt-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-2" aria-controls="offcanvasRight">I want details</button>
                         </div>
                     </div>
-
                     <div class="card m-4" style="width: 20rem;">
                         <img src="/assets/images/delivery-card.png" class="card-img-top"
                             alt="Caixa aberta armazenando comidas diversas">
@@ -135,8 +126,78 @@
             </section>
         </section>
 
+        <!-- DOORS OPEN BANNER -->
+        <section>
+            <header class="d-flex flex-column justify-content-center banner banner-2">
+                <div class="bg-body-secondary bg-opacity-10 p-5 text-center">
+                    <h2 class="fw-semibold">Doors open to all audiences.</h2>
+                    <p>Our space is cozy, pet friendly, prepared to receive children and people with disabilities. We
+                        also offer a coworking environment!</p>
+                </div>
+            </header>
+
+            <section class="py-5">
+                <h2 class="pb-5 fw-bold text-center">Our Products</h2>
+
+                <section class="row mx-0">
+                    <div class="col-12 col-md-6 col-lg-4 card btn mx-auto border-0" data-bs-toggle="modal" data-bs-target="#modal-our-products-traditional-coffee">
+                        <img src="/assets/images/produtos-cafe-tradicional.png" class="card-img-top" alt="A cup of black coffee">
+                        
+                        <div class="card-body border-0">
+                            <h3 class="card-text fw-bold text-center">Traditional Coffees</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 card btn mx-auto border-0" data-bs-toggle="modal" data-bs-target="#modal-our-products-special-coffee">
+                        <img src="/assets/images/produtos-cafe-especial.png" class="card-img-top" alt="A cup of coffee">
+                        
+                        <div class="card-body border-0">
+                            <h3 class="card-text fw-bold text-center">Special Coffees</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 card btn mx-auto border-0">
+                        <img src="/assets/images/produtos-vitaminas.png" class="card-img-top" alt="Shakes and Smoothies">
+                        
+                        <div class="card-body border-0">
+                            <h3 class="card-text fw-bold text-center">Smoothies</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 card btn mx-auto border-0">
+                        <img src="/assets/images/produtos-paes.png" class="card-img-top" alt="Breads and Focaccias">
+                        
+                        <div class="card-body border-0">
+                            <h3 class="card-text fw-bold text-center">Breads and Focaccias</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 card btn mx-auto border-0">
+                        <img src="/assets/images/produtos-doces.png" class="card-img-top" alt="A cake">
+                        
+                        <div class="card-body border-0">
+                            <h3 class="card-text fw-bold text-center">Candy</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 card btn mx-auto border-0">
+                        <img src="/assets/images/produtos-salgados.png" class="card-img-top" alt="Savory">
+                        
+                        <div class="card-body border-0">
+                            <h3 class="card-text fw-bold text-center">Savory</h3>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+
+
+        <!-- COFFEE BANNER -->
         <div class="d-flex flex-column justify-content-center banner banner-3"></div>
     </main>
+
+
 
     <!-- OFF-CANVAS -->
     <!-- Café & Bistro -->
@@ -275,6 +336,55 @@
                             We deliver through the Ifood and Rappi apps. Check out our menu there and place your order!
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALS -->
+    <!-- OUR PRODUCTS -->
+    <!-- TRADITIONAL COFFEE -->
+    <div class="modal fade" id="modal-our-products-traditional-coffee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="exampleModalLabel">Traditional Coffees</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <img class="d-block mx-auto" src="/assets/images/produtos-cafe-tradicional.png" alt="A cup of black coffee">
+
+                    <p>Serenatto coffee is known for its traditional and tasty blends, which appeal to drink lovers. Our beans are carefully selected and roasted to produce a rich aroma and balanced flavor.</p>
+                    <p>Among the house's most traditional coffees, "Café Serenatto" stands out, an exclusive blend of beans with notes of chocolate and caramel. Another popular option is the "Café Italiano", a full-bodied and intense espresso. "Café Cappuccino" is a classic choice for those who prefer a creamy and smooth drink.</p>
+                </div>
+                
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn default-button" data-bs-dismiss="modal">Close Window</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SPECIAL COFFEE -->
+    <div class="modal fade" id="modal-our-products-special-coffee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="exampleModalLabel">Special Coffees</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <img class="d-block mx-auto" src="/assets/images/produtos-cafe-especial.png" alt="A cup of special coffee">
+
+                    <p>We are also known for our specialty coffees, which are carefully prepared with selected high-quality beans and precise preparation techniques..</p>
+
+                    <p>Among the specialty coffee options at Café & Bistrô Serenatto, we highlight aeropress coffee, which is prepared using an immersion and pressure technique, resulting in a drink with an intense flavor and accentuated aroma. Another popular option is Hario V60 coffee, which is prepared with a cone-shaped paper filter and results in a clean and smooth drink, highlighting the sensorial notes of the beans. Additionally, we offer a variety of cold drinks, such as iced coffee, which is prepared with dark roasted beans and served with ice and milk, resulting in a refreshing and tasty drink.</p>
+                </div>
+                
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn default-button" data-bs-dismiss="modal">Close Window</button>
                 </div>
             </div>
         </div>

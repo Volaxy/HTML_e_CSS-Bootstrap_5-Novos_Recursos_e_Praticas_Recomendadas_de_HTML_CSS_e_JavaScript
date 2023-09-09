@@ -41,6 +41,11 @@ URL do curso -> [Bootstrap 5 - Novos Recursos e Práticas Recomendadas de HTML, 
 * Importar e customizar o componente *accordion*.
 * Definir grupos de *collapse* no *accordion*.
 
+## 03 - Estilizando Cards e Modais
+* Inserir componente de cards no projeto.
+* Organizar elementos na tela de forma responsiva com Grid e Breakpoints.
+* Inserir componentes de modal em um projeto.
+
 ## :open_file_folder: Deploy da Aplicação :dash:
 [Aplicação Online](URL_DO_DEPLOY) - Site hospedado na plataforma do **Vercel**.
 
