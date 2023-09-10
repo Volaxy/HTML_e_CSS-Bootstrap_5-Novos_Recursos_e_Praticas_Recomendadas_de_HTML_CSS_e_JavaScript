@@ -14,6 +14,7 @@
     --input-range-circle-background-color: var(--teak-color);
     --default-button-background-color: var(--teak-color);
     --default-button--hover-background-color: var(--shadow-color);
+    --footer-background-color: var(--shadow-color);
 
     /*=============== BORDERS ===============*/
     --input-checkbox-border-color: var(--teak-color);
@@ -31,6 +32,18 @@ body {
     --bege: #E6E0D6;
 
     font-family: 'Barlow', sans-serif;
+}
+
+[data-bs-theme="dark"] {
+    color: white;
+
+    .nav-link, .card-body, .offcanvas, .accordion, .btn {
+        --bs-nav-link-color: white;
+        --bs-card-color: white;
+        --bs-offcanvas-color: white;
+        --bs-body-color: white;
+        --bs-body-color: white;
+    }
 }
 
 /* ========== INPUTS ========== */
@@ -111,9 +124,9 @@ input[type="range"] {
     height: 100vh;
 }
 
-/* CONTACT */
-.contact-container {
-    min-width: 20rem;
+/* FOOTER */
+.footer {
+    background-color: var(--footer-background-color);
 }
 
 /*============================== Responsive Layouts ==============================*/

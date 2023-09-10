@@ -52,8 +52,15 @@ URL do curso -> [Bootstrap 5 - Novos Recursos e Práticas Recomendadas de HTML, 
 * Aplicou responsividade no formulário.
 * Aplicou cor no input range do Bootstrap.
 
+## 05 - Modo Noturno com Bootstrap
+* Aplicar modo noturno em um projeto.
+* Fazer alterações no tema de modo noturno do Bootstrap com CSS.
+* Implementar método para alterar a página entre modo claro e modo noturno, utilizando JavaScript.
+* Integrar a biblioteca de ícones do Bootstrap: Bootstrap Icons.
+* Aplicar ícones no projeto construindo o rodapé.
+
 ## :open_file_folder: Deploy da Aplicação :dash:
-[Aplicação Online](URL_DO_DEPLOY) - Site hospedado na plataforma do **Vercel**.
+[Aplicação Online](URL_DO_DEPLOY) - Site hospedado na plataforma do **Github Pages**.
 
 ## :black_nib: Licença
 [Unlicense](https://unlicense.org)
