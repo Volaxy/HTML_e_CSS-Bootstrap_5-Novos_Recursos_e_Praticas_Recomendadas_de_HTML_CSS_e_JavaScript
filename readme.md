@@ -60,7 +60,7 @@ URL do curso -> [Bootstrap 5 - Novos Recursos e Práticas Recomendadas de HTML, 
 * Aplicar ícones no projeto construindo o rodapé.
 
 ## :open_file_folder: Deploy da Aplicação :dash:
-[Aplicação Online]([URL_DO_DEPLOY](https://html-e-css-bootstrap-5-novos-recursos-e-praticas-anklsaedq.vercel.app/)) - Site hospedado na plataforma da **Vercel**.
+[Aplicação Online](https://html-e-css-bootstrap-5-novos-recursos-e-praticas-anklsaedq.vercel.app/) - Site hospedado na plataforma da **Vercel**.
 
 ## :black_nib: Licença
 [Unlicense](https://unlicense.org)
